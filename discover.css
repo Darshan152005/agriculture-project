@@ -1,0 +1,49 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #2f5d1d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://source.unsplash.com/1600x900/?farm,agriculture') no-repeat center center/cover;
+    color: #2f5d1d(42, 172, 16);
+    text-align: center;
+    padding: 80px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Content Section */
+.content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.content h2 {
+    color: #2f5d1d;
+}
+
+/* Footer */
+footer {
+    background-color: #2f5d1d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

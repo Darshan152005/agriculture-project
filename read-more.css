@@ -1,0 +1,94 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: white;
+}
+
+/* Section Container */
+.why-choose {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* Title Styling */
+.why-choose h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.why-choose p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    color: #bbb;
+}
+
+/* Features Grid */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Individual Feature Box */
+.feature {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+}
+
+/* Feature Icon */
+.feature .icon {
+    font-size: 40px;
+    background: #f4cb1e;
+    padding: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+/* Feature Title */
+.feature h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #f4cb1e;
+}
+
+/* Feature Description */
+.feature p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+/* Back Button */
+.back-btn {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 12px 25px;
+    background: transparent;
+    color: #f4cb1e;
+    border: 2px solid #f4cb1e;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.back-btn:hover {
+    background: #f4cb1e;
+    color: #222;
+}

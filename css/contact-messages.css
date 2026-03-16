@@ -1,0 +1,78 @@
+/* General page styling */
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e99139, #d16b27);
+    background-size: 400% 400%;
+    animation: bgAnimation 10s infinite alternate;
+    color: #fff;
+    text-align: center;
+}
+
+/* Background animation */
+@keyframes bgAnimation {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+/* Page title */
+h2 {
+    font-size: 28px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Table styling */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Table headers */
+th {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 12px;
+    text-transform: uppercase;
+}
+
+/* Table rows */
+td, th {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Alternating row colors */
+tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Row hover effect */
+tr:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transition: 0.3s ease;
+}
+
+/* Animated Falling Leaves */
+.leaf {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url('leaf.png') no-repeat center;
+    background-size: contain;
+    animation: fallingLeaves 6s linear infinite;
+}
+
+@keyframes fallingLeaves {
+    0% { transform: translateY(0) rotate(0); opacity: 1; }
+    50% { transform: translateY(50px) rotate(45deg); opacity: 0.6; }
+    100% { transform: translateY(100px) rotate(90deg); opacity: 1; }
+}
